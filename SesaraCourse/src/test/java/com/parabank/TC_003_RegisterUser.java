@@ -15,7 +15,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class TC_001_RegisterUser {
+public class TC_003_RegisterUser {
   @Test
   public void TC_001_Headers_Validate() {
 	  

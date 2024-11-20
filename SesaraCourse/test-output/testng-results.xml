@@ -2,72 +2,132 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Open Browser]]>
+      <![CDATA[Launching...https://parabank.parasoft.com/parabank/index.htm]]>
     </line>
     <line>
-      <![CDATA[Click on Register]]>
+      <![CDATA[Click on Register Link]]>
     </line>
     <line>
-      <![CDATA[Validate Register sections is shown]]>
+      <![CDATA[Validate Register Page is shown]]>
     </line>
     <line>
-      <![CDATA[Fill out Register mandatory fields]]>
+      <![CDATA[Enter User Name value]]>
     </line>
     <line>
-      <![CDATA[Get the user name Label]]>
+      <![CDATA[Enter Last Name value]]>
     </line>
     <line>
-      <![CDATA[Divide the user name Label]]>
+      <![CDATA[Enter Street  Name]]>
     </line>
     <line>
-      <![CDATA[Validate the entered Username on the Registration Page matches against the shown User name on the Register Page]]>
+      <![CDATA[Enter City Name]]>
     </line>
     <line>
-      <![CDATA[Log out]]>
+      <![CDATA[Enter State Name]]>
+    </line>
+    <line>
+      <![CDATA[Enter Zip Code]]>
+    </line>
+    <line>
+      <![CDATA[Enter Phone Number Code]]>
+    </line>
+    <line>
+      <![CDATA[Enter SSN]]>
+    </line>
+    <line>
+      <![CDATA[Enter User Name]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password]]>
+    </line>
+    <line>
+      <![CDATA[Re Enter Password]]>
+    </line>
+    <line>
+      <![CDATA[Click Register Button]]>
+    </line>
+    <line>
+      <![CDATA[Validate Actual Value vs Expected Value]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-11-07T19:19:31 CST" name="Default suite" finished-at="2024-11-07T19:19:36 CST" duration-ms="4564">
+  <suite started-at="2024-11-15T13:38:21 CST" name="Default suite" finished-at="2024-11-15T13:38:27 CST" duration-ms="5594">
     <groups>
     </groups>
-    <test started-at="2024-11-07T19:19:31 CST" name="Default test" finished-at="2024-11-07T19:19:36 CST" duration-ms="4564">
-      <class name="com.parabank.TC_003_RegisterUser">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.parabank.TC_003_RegisterUser@70ed52de]" started-at="2024-11-07T19:19:31 CST" name="beforeTest" finished-at="2024-11-07T19:19:31 CST" duration-ms="16" status="PASS">
+    <test started-at="2024-11-15T13:38:21 CST" name="Default test" finished-at="2024-11-15T13:38:27 CST" duration-ms="5594">
+      <class name="com.parabank.TC_002_RegisterUser_POM">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.parabank.TC_002_RegisterUser_POM@2b40ff9c]" started-at="2024-11-15T13:38:21 CST" name="beforeTest" finished-at="2024-11-15T13:38:22 CST" duration-ms="1156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="TC_001_Headers_Validate()[pri:0, instance:com.parabank.TC_003_RegisterUser@70ed52de]" started-at="2024-11-07T19:19:31 CST" name="TC_001_Headers_Validate" finished-at="2024-11-07T19:19:36 CST" duration-ms="4489" status="PASS">
+        <test-method signature="TC_002_RegisterUser_POM_TestScript()[pri:0, instance:com.parabank.TC_002_RegisterUser_POM@2b40ff9c]" started-at="2024-11-15T13:38:22 CST" name="TC_002_RegisterUser_POM_TestScript" finished-at="2024-11-15T13:38:27 CST" duration-ms="4369" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Open Browser]]>
+              <![CDATA[Launching...https://parabank.parasoft.com/parabank/index.htm]]>
             </line>
             <line>
-              <![CDATA[Click on Register]]>
+              <![CDATA[Click on Register Link]]>
             </line>
             <line>
-              <![CDATA[Validate Register sections is shown]]>
+              <![CDATA[Validate Register Page is shown]]>
             </line>
             <line>
-              <![CDATA[Fill out Register mandatory fields]]>
+              <![CDATA[Enter User Name value]]>
             </line>
             <line>
-              <![CDATA[Get the user name Label]]>
+              <![CDATA[Enter Last Name value]]>
             </line>
             <line>
-              <![CDATA[Divide the user name Label]]>
+              <![CDATA[Enter Street  Name]]>
             </line>
             <line>
-              <![CDATA[Validate the entered Username on the Registration Page matches against the shown User name on the Register Page]]>
+              <![CDATA[Enter City Name]]>
             </line>
             <line>
-              <![CDATA[Log out]]>
+              <![CDATA[Enter State Name]]>
+            </line>
+            <line>
+              <![CDATA[Enter Zip Code]]>
+            </line>
+            <line>
+              <![CDATA[Enter Phone Number Code]]>
+            </line>
+            <line>
+              <![CDATA[Enter SSN]]>
+            </line>
+            <line>
+              <![CDATA[Enter User Name]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password]]>
+            </line>
+            <line>
+              <![CDATA[Re Enter Password]]>
+            </line>
+            <line>
+              <![CDATA[Click Register Button]]>
+            </line>
+            <line>
+              <![CDATA[Validate Actual Value vs Expected Value]]>
+            </line>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+            <line>
+              <![CDATA[Close Browser]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TC_001_Headers_Validate -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.parabank.TC_003_RegisterUser@70ed52de]" started-at="2024-11-07T19:19:36 CST" name="afterTest" finished-at="2024-11-07T19:19:36 CST" duration-ms="0" status="PASS">
+        </test-method> <!-- TC_002_RegisterUser_POM_TestScript -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.parabank.TC_002_RegisterUser_POM@2b40ff9c]" started-at="2024-11-15T13:38:27 CST" name="afterTest" finished-at="2024-11-15T13:38:27 CST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.parabank.TC_003_RegisterUser -->
+      </class> <!-- com.parabank.TC_002_RegisterUser_POM -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

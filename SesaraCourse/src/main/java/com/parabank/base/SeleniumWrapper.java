@@ -26,6 +26,7 @@ import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -43,6 +44,11 @@ public class SeleniumWrapper {
 	 */
 	public SeleniumWrapper(WebDriver driver) {
 		this.driver = driver;
+	}
+	
+	public void hoverOver(By locator) {
+		Actions mouseOver = new Actions(driver);
+		mouseOver.moveToElement((WebElement) locator);
 	}
 	
 	/*
@@ -130,6 +136,10 @@ public class SeleniumWrapper {
 		}
 		
 }
+	
+	
+	
+	
 	/*
 	 * Click Object
 	 */

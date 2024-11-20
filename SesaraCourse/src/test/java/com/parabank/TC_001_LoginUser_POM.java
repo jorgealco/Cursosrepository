@@ -38,7 +38,7 @@ public class TC_001_LoginUser_POM {
   public void TC_001_LoginUser_POM_TestScript() {
 	  
 	  //Step 1 Launch Browser
-	  seleniumWraper.launchBrowser(GlobalVariables.QA_URL);
+	  seleniumWraper.launchBrowser(GlobalVariables.QA_Parabank_URL);
 	  
 	  //Step 2 Enter User Name
 	  login.login(username, password);

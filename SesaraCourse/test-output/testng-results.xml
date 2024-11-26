@@ -2,72 +2,26 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Open Browser]]>
-    </line>
-    <line>
-      <![CDATA[Click on Register]]>
-    </line>
-    <line>
-      <![CDATA[Validate Register sections is shown]]>
-    </line>
-    <line>
-      <![CDATA[Fill out Register mandatory fields]]>
-    </line>
-    <line>
-      <![CDATA[Get the user name Label]]>
-    </line>
-    <line>
-      <![CDATA[Divide the user name Label]]>
-    </line>
-    <line>
-      <![CDATA[Validate the entered Username on the Registration Page matches against the shown User name on the Register Page]]>
-    </line>
-    <line>
-      <![CDATA[Log out]]>
+      <![CDATA[Launching...https://www.godaddy.com/es]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-11-07T19:19:31 CST" name="Default suite" finished-at="2024-11-07T19:19:36 CST" duration-ms="4564">
+  <suite started-at="2024-11-25T12:31:10 CST" name="Default suite" finished-at="2024-11-25T12:31:15 CST" duration-ms="5410">
     <groups>
     </groups>
-    <test started-at="2024-11-07T19:19:31 CST" name="Default test" finished-at="2024-11-07T19:19:36 CST" duration-ms="4564">
-      <class name="com.parabank.TC_003_RegisterUser">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.parabank.TC_003_RegisterUser@70ed52de]" started-at="2024-11-07T19:19:31 CST" name="beforeTest" finished-at="2024-11-07T19:19:31 CST" duration-ms="16" status="PASS">
+    <test started-at="2024-11-25T12:31:10 CST" name="Default test" finished-at="2024-11-25T12:31:15 CST" duration-ms="5410">
+      <class name="com.formy.TC003_LaunchBrowser">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.formy.TC003_LaunchBrowser@273444fe]" started-at="2024-11-25T12:31:10 CST" name="beforeTest" finished-at="2024-11-25T12:31:12 CST" duration-ms="2657" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="TC_001_Headers_Validate()[pri:0, instance:com.parabank.TC_003_RegisterUser@70ed52de]" started-at="2024-11-07T19:19:31 CST" name="TC_001_Headers_Validate" finished-at="2024-11-07T19:19:36 CST" duration-ms="4489" status="PASS">
+        <test-method signature="TC003_LaunchBrowserScript()[pri:0, instance:com.formy.TC003_LaunchBrowser@273444fe]" started-at="2024-11-25T12:31:12 CST" name="TC003_LaunchBrowserScript" finished-at="2024-11-25T12:31:15 CST" duration-ms="2676" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Open Browser]]>
-            </line>
-            <line>
-              <![CDATA[Click on Register]]>
-            </line>
-            <line>
-              <![CDATA[Validate Register sections is shown]]>
-            </line>
-            <line>
-              <![CDATA[Fill out Register mandatory fields]]>
-            </line>
-            <line>
-              <![CDATA[Get the user name Label]]>
-            </line>
-            <line>
-              <![CDATA[Divide the user name Label]]>
-            </line>
-            <line>
-              <![CDATA[Validate the entered Username on the Registration Page matches against the shown User name on the Register Page]]>
-            </line>
-            <line>
-              <![CDATA[Log out]]>
+              <![CDATA[Launching...https://www.godaddy.com/es]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TC_001_Headers_Validate -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.parabank.TC_003_RegisterUser@70ed52de]" started-at="2024-11-07T19:19:36 CST" name="afterTest" finished-at="2024-11-07T19:19:36 CST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.parabank.TC_003_RegisterUser -->
+        </test-method> <!-- TC003_LaunchBrowserScript -->
+      </class> <!-- com.formy.TC003_LaunchBrowser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

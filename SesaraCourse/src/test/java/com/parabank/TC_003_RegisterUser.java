@@ -70,8 +70,9 @@ public class TC_003_RegisterUser {
 	  Reporter.log("Validate the entered Username on the Registration Page matches against the shown User name on the Register Page");
 	  Assert.assertEquals(userName, parts[1].trim());
 	  
-	  Reporter.log("Log out");
+	  Reporter.log("Logout");
 	  driver.findElement(By.xpath("//a[@href='logout.htm']")).click();
+	  
 	  
 	
 	  

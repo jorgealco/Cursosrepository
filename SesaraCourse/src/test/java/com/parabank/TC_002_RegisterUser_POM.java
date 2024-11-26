@@ -36,7 +36,7 @@ public class TC_002_RegisterUser_POM {
 	@Test
 	public void TC_002_RegisterUser_POM_TestScript() {
 		//Step 1 Launch Browser
-		seleniumWrapper.launchBrowser(GlobalVariables.QA_URL);
+		seleniumWrapper.launchBrowser(GlobalVariables.QA_Parabank_URL);
 		
 		//Step 2 Click on Register
 		register.clickRegisterLink();

@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.parabank.TC_001_LoginUser_POM">
+      <class name="com.formy.TC_001_AutoComplete_Formy">
         <methods>
-          <include name="TC_001_LoginUser_POM_TestScript"/>
+          <include name="TC_001_AutoComplete_Formy_TestScipt"/>
           <include name="beforeTest"/>
-          <include name="afterTest"/>
         </methods>
-      </class> <!-- com.parabank.TC_001_LoginUser_POM -->
+      </class> <!-- com.formy.TC_001_AutoComplete_Formy -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

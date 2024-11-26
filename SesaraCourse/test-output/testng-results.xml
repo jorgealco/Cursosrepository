@@ -2,26 +2,38 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Launching...https://www.godaddy.com/es]]>
+      <![CDATA[Launching...https://formy-project.herokuapp.com/]]>
+    </line>
+    <line>
+      <![CDATA[Validate Auto Complete Header]]>
+    </line>
+    <line>
+      <![CDATA[Validate Header Links]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-11-25T12:31:10 CST" name="Default suite" finished-at="2024-11-25T12:31:15 CST" duration-ms="5410">
+  <suite started-at="2024-11-26T01:04:28 CST" name="Default suite" finished-at="2024-11-26T01:04:31 CST" duration-ms="2314">
     <groups>
     </groups>
-    <test started-at="2024-11-25T12:31:10 CST" name="Default test" finished-at="2024-11-25T12:31:15 CST" duration-ms="5410">
-      <class name="com.formy.TC003_LaunchBrowser">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.formy.TC003_LaunchBrowser@273444fe]" started-at="2024-11-25T12:31:10 CST" name="beforeTest" finished-at="2024-11-25T12:31:12 CST" duration-ms="2657" status="PASS">
+    <test started-at="2024-11-26T01:04:28 CST" name="Default test" finished-at="2024-11-26T01:04:31 CST" duration-ms="2314">
+      <class name="com.formy.TC_001_AutoComplete_Formy">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.formy.TC_001_AutoComplete_Formy@1040be71]" started-at="2024-11-26T01:04:28 CST" name="beforeTest" finished-at="2024-11-26T01:04:30 CST" duration-ms="1224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="TC003_LaunchBrowserScript()[pri:0, instance:com.formy.TC003_LaunchBrowser@273444fe]" started-at="2024-11-25T12:31:12 CST" name="TC003_LaunchBrowserScript" finished-at="2024-11-25T12:31:15 CST" duration-ms="2676" status="PASS">
+        <test-method signature="TC_001_AutoComplete_Formy_TestScipt()[pri:0, instance:com.formy.TC_001_AutoComplete_Formy@1040be71]" started-at="2024-11-26T01:04:30 CST" name="TC_001_AutoComplete_Formy_TestScipt" finished-at="2024-11-26T01:04:31 CST" duration-ms="1041" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Launching...https://www.godaddy.com/es]]>
+              <![CDATA[Launching...https://formy-project.herokuapp.com/]]>
+            </line>
+            <line>
+              <![CDATA[Validate Auto Complete Header]]>
+            </line>
+            <line>
+              <![CDATA[Validate Header Links]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TC003_LaunchBrowserScript -->
-      </class> <!-- com.formy.TC003_LaunchBrowser -->
+        </test-method> <!-- TC_001_AutoComplete_Formy_TestScipt -->
+      </class> <!-- com.formy.TC_001_AutoComplete_Formy -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

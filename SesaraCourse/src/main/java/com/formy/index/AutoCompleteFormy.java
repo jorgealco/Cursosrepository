@@ -16,6 +16,7 @@ public class AutoCompleteFormy extends SeleniumWrapper{
 	
 	By welcomeHeader = By.xpath("//h1[text()='Welcome to Formy']");
 	By welcomeMessage = By.xpath("//p[text()='This is a simple site that has form components that can be used for testing purposes.']");
+	By headerLinks = By.xpath("//div[@class='jumbotron-fluid']/li/a");
 	By autocompleteLink = By.xpath("//*[@class='btn btn-lg'][@href='/autocomplete']");
 	By buttonLink = By.xpath("//*[@class='btn btn-lg'][@href='/buttons']");
 	By checkBoxLink = By.xpath("//*[@class='btn btn-lg'][@href='/checkbox']");
@@ -34,6 +35,12 @@ public class AutoCompleteFormy extends SeleniumWrapper{
 	public void validateHeader() {
 		reporterLog("Validate Auto Complete Header");
 		waitforElementPresent(welcomeHeader,1);
+		
+	}
+	
+	public void getLinkList() {
+		reporterLog("Validate Header Links");
+		getHeaderLinks(headerLinks);
 	}
 	
 	public void validateParagraph() {
@@ -44,6 +51,7 @@ public class AutoCompleteFormy extends SeleniumWrapper{
 	public void validateAutoCompleteLink() {
 		reporterLog("Validate Auto Complete Link");
 		waitforElementPresent(autocompleteLink,1);
+		
 	}
 	
 	public void validateButtonsLink() {

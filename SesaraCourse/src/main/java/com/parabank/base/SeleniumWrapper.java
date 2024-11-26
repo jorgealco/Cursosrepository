@@ -2,13 +2,12 @@ package com.parabank.base;
 
 
 
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import javax.imageio.ImageIO;
@@ -27,7 +26,6 @@ import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -45,11 +43,6 @@ public class SeleniumWrapper {
 	 */
 	public SeleniumWrapper(WebDriver driver) {
 		this.driver = driver;
-	}
-	
-	public void hoverOver(By locator) {
-		Actions mouseOver = new Actions(driver);
-		mouseOver.moveToElement((WebElement) locator);
 	}
 	
 	/*
@@ -86,42 +79,6 @@ public class SeleniumWrapper {
 			driver.close();
 		}catch (NoSuchSessionException e) {
 			Assert.fail("Not able to close Browser");
-		}
-	}
-	
-	/*
-	 * List - Get a list of Links
-	 */
-	
-	public void getHeaderLinks(By locator) {
-		ArrayList<String> expValues = new ArrayList<String>();
-			expValues.add("Autocomplete");
-			expValues.add("Buttons");
-			expValues.add("Checkbox");
-			expValues.add("Datepicker");
-			expValues.add("Drag and Drop");
-			expValues.add("Dropdown");
-			expValues.add("Enabled and disabled elements");
-			expValues.add("File Upload");
-			expValues.add("Key and Mouse Press");
-			expValues.add("Modal");
-			expValues.add("Page Scroll");
-			expValues.add("Radio Button");
-			expValues.add("Switch Window");
-			expValues.add("Complete Web Form");
-			
-		ArrayList<String> actValues = new ArrayList<String>();
-		
-		List<WebElement> headerLinks = driver.findElements(locator);
-		for(WebElement l1 : headerLinks) {
-				System.out.println(l1.getText());
-				actValues.add(l1.getText().trim());
-	}
-		if(expValues.equals(actValues)) {
-			System.out.println("Links matches");
-			
-		}else{
-			System.out.println("Links DONT matches");
 		}
 	}
 	
@@ -171,11 +128,8 @@ public class SeleniumWrapper {
 		catch(TimeoutException e){
 			
 		}
-	}
-	
-	
-	
 		
+}
 	/*
 	 * Click Object
 	 */
